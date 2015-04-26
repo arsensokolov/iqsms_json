@@ -4,6 +4,7 @@ JSON API интерфейс для сайта iqsms.ru (СМС Дисконт)
 Пример использования класса
 
 ```
+<?php
 $gate = new iqsms_JsonGate('api_login', 'api_password');
 
 var_dump($gate->credits()); // узнаем текущий баланс
@@ -38,4 +39,5 @@ $messages = array(
 );
 var_dump($gate->status($messages)); // получаем статусы для пакета sms
 var_dump($gate->statusQueue('testQueue', 10)); // получаем статусы из очереди 'testQueue'
+?>
 ```
