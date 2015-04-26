@@ -1,5 +1,15 @@
 <?php
 
+/**
+ * @class iqsms_json
+ * PHP JSON API class for iqsms.ru site.
+ * Send sms, get current balans, get current list signature, get receiving status, get queue status.
+ * @package com.arsen-bespalov.iqsms_json
+ * @brief PHP JSON API class for iqsms.ru site.
+ * @version 1.0.0
+ * @author Arsen Bespalov <bespalov@arsen.pw>
+ */
+
 class iqsms_json
 {
 	
